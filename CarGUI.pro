@@ -36,10 +36,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        tests/tst_carguitest.cpp
+        tests/tst_carguitest.cpp \
+    src/main.cpp
 
 DEFINES += SRCDIR=\\\"$$PWD/\\\"
 
 DISTFILES += \
     README.md \
     LICENSE.md
+
+HEADERS += \
+    src/mainwindow.h

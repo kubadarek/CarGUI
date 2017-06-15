@@ -5,9 +5,12 @@ Basic assumptions about the things that the project should contain:
 - Main menu with option description
 - Main vehicle status window (reading from some files)
 - Transitions beetwen windows
+
 Optional:
 - ?? SQL handler ??
 - ?? Network connections ??
+
+
 Additional aspects:
 - Doxygen documentation
 - Cmake building
